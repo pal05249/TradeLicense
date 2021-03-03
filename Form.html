@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Trade License</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- <link href="css/sb-admin-2.min.css" rel="stylesheet"> -->
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div class="container">
+
+        <div style=" margin-top:30px">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <div class="panel-title">New Trade License</div>
+
+                </div>
+                <div class="panel-body">
+                    <form method="post" action=".">
+                        <input type='hidden' name='csrfmiddlewaretoken' value='XFe2rTYl9WOpV8U6X5CfbIuOZOELJ97S' />
+
+
+                        <form class="form-horizontal" method="post">
+                            <input type='hidden' name='csrfmiddlewaretoken' value='XFe2rTYl9WOpV8U6X5CfbIuOZOELJ97S' />
+                            <div id="div_id_select" class="form-group required">
+                                <label for="id_select" class="control-label col-md-4  "> Applicant representing as<span class="asteriskField">*</span> </label>
+                                <div class="controls col-sm-12 " style="margin-bottom: 10px">
+                                    <label class="radio-inline"><input type="radio" checked="checked" name="select" id="id_select_1" value="Proprietor"  style="margin-bottom: 10px">Proprietor</label>
+                                    <label class="radio-inline"> <input type="radio" name="select" id="id_select_2" value="Partner"  style="margin-bottom: 10px">Partner</label>
+                                    <label class="radio-inline"> <input type="radio" name="select" id="id_select_3" value="Director"  style="margin-bottom: 10px">Director</label>
+                                    <label class="radio-inline"> <input type="radio" name="select" id="id_select_4" value="Authorizedsignatory"  style="margin-bottom: 10px">Authorized signatory</label>
+
+                                </div>
+                            </div>
+                            <!-- <div id="div_id_As" class="form-group required">
+                                <label for="id_As" class="control-label col-md-4  requiredField">As<span class="asteriskField">*</span> </label>
+                                <div class="controls col-md-8 " style="margin-bottom: 10px">
+                                    <label class="radio-inline"> <input type="radio" name="As" id="id_As_1" value="I"  style="margin-bottom: 10px">Individual </label>
+                                    <label class="radio-inline"> <input type="radio" name="As" id="id_As_2" value="CI"  style="margin-bottom: 10px">Company/Institute </label>
+                                </div>
+                            </div> -->
+                            <div id="div_id_username" class="form-group required">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-sm-6"><label for="id_username" class="control-label "> Applicant Name<span class="asteriskField">*</span> </label></div>
+                                                <div class="controls col-sm-6 ">
+                                                    <input class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Enter your Fullname" style="margin-bottom: 10px" type="text" />
+                                                </div>
+                                                <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Applicant Address<span class="asteriskField">*</span> </label></div>
+                                                <div class="controls col-sm-6 ">
+                                                    <textarea class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Enter your Address" style="margin-bottom: 10px" type="text"></textarea>
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <label for="id_gender" class="control-label col-sm-6  requiredField"> Gender<span class="asteriskField">*</span> </label>
+                                                <div class="controls col-sm-6" style="margin-bottom: 10px">
+                                                    <label class="radio-inline"> <input type="radio" name="gender" id="id_gender_1" value="M"  style="margin-bottom: 10px">Male</label>
+                                                    <label class="radio-inline"> <input type="radio" name="gender" id="id_gender_2" value="F"  style="margin-bottom: 10px">Female </label>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Mobile number<span class="asteriskField">*</span> </label></div>
+                                                <div class="controls col-sm-6 ">
+                                                    <input class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Enter your mobile number" style="margin-bottom: 10px" type="text" />
+                                                </div>
+                                                <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Email<span class="asteriskField">*</span> </label></div>
+                                                <div class="controls col-sm-6 ">
+                                                    <input class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Enter your email" style="margin-bottom: 10px" type="text" />
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Trade Name<span class="asteriskField">*</span> </label></div>
+                                                <div class="controls col-sm-6 ">
+                                                    <input class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Enter your Trade name" style="margin-bottom: 10px" type="text" />
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Trade Type<span class="asteriskField">*</span> </label></div>
+                                                <div class="controls col-sm-6 ">
+                                                    <select class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Choose your trade type" style="margin-bottom: 10px" type="text">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Date of Application<span class="asteriskField">*</span> </label></div>
+                                                <div class="controls col-sm-6 ">
+                                                    <input class="  form-control" disabled id="id_username" maxlength="30" name="username" placeholder="28/01/2015" style="margin-bottom: 10px" type="text" />
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <p style="font-weight: bold;font-style: italic;">Address of the Trade Premise</p>
+                                            <div class="form-group required">
+                                                <div class="row">
+                                                    <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Door Number<span class="asteriskField">*</span> </label></div>
+                                                    <div class="controls col-sm-6 ">
+                                                        <input class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Enter your door number" style="margin-bottom: 10px" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Ward<span class="asteriskField">*</span> </label></div>
+                                                    <div class="controls col-sm-6 ">
+                                                        <select class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Choose your ward" style="margin-bottom: 10px" type="text">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    </select>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Village<span class="asteriskField">*</span> </label></div>
+                                                    <div class="controls col-sm-6 ">
+                                                        <input class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Enter your village name" style="margin-bottom: 10px" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Street<span class="asteriskField">*</span> </label></div>
+                                                    <div class="controls col-sm-6 ">
+                                                        <input class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Enter your street " style="margin-bottom: 10px" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Pincode<span class="asteriskField">*</span> </label></div>
+                                                    <div class="controls col-sm-6 ">
+                                                        <input class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Enter your pincode " style="margin-bottom: 10px" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Property Type<span class="asteriskField">*</span> </label></div>
+                                                    <div class="controls col-sm-6 ">
+                                                        <select class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Choose your property type" style="margin-bottom: 10px" type="text">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class='row'>
+
+                                    <div class="form-group">
+
+                                        <div class="col-lg-12">
+                                            <h4 style="margin-left: 13px;font-weight: bolder;margin-bottom: 20px;">License Details</h4>
+                                            <div class="col-lg-6">
+                                                <div class="row">
+                                                    <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> License Number<span class="asteriskField">*</span> </label></div>
+                                                    <div class="controls col-sm-6 ">
+                                                        <input class="  form-control" disabled id="id_username" maxlength="30" name="username" placeholder="125355" style="margin-bottom: 10px" type="text" />
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> License Validity<span class="asteriskField">*</span> </label></div>
+                                                    <div class="controls col-sm-6 ">
+                                                        <input class="  form-control" disabled id="id_username" maxlength="30" name="username" placeholder="25/01/2016" style="margin-bottom: 10px" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Receipt Number <span class="asteriskField">*</span> </label></div>
+                                                    <div class="controls col-sm-6 ">
+                                                        <input class="  form-control" disabled id="id_username" maxlength="30" name="username" placeholder="22000012" style="margin-bottom: 10px" type="text" />
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="row">
+                                                    <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> License Issued Date<span class="asteriskField">*</span> </label></div>
+                                                    <div class="controls col-sm-6 ">
+                                                        <input class="  form-control" id="id_username" maxlength="30" name="username" placeholder="" style="margin-bottom: 10px" type="text" />
+                                                    </div>
+                                                </div> -->
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="row">
+                                                    <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> License Fees<span class="asteriskField">*</span> </label></div>
+                                                    <div class="controls col-sm-6 ">
+                                                        <input class="  form-control" id="id_username" maxlength="30" disabled name="username" placeholder="205" style="margin-bottom: 10px" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Penalty fees<span class="asteriskField">*</span> </label></div>
+                                                    <div class="controls col-sm-6 ">
+                                                        <input class="  form-control" id="id_username" maxlength="30" disabled name="username" placeholder="51" style="margin-bottom: 10px" type="text" />
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> License Fees collected<span class="asteriskField">*</span> </label></div>
+                                                    <div class="controls col-sm-6 ">
+                                                        <input class="  form-control" id="id_username" maxlength="30" name="username" placeholder="" style="margin-bottom: 10px" type="text" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="row">
+
+                                    <div class="form-group col-lg-12">
+                                        <h4 style="margin-left: 13px;font-weight: bolder;margin-bottom: 20px;">Documents to be uploaded</h4>
+                                        <div class="col-lg-6">
+                                            <div class="row">
+                                                <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Building receipt<span class="asteriskField">*</span> </label></div>
+                                                <div class="controls col-sm-6 ">
+                                                    <input class="form-control" id="id_username" maxlength="30" name="username" placeholder="Enter your Trade name" style="margin-bottom: 10px" type="file" />
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Rent Agreement<span class="asteriskField">*</span> </label></div>
+                                                <div class="controls col-sm-6 ">
+                                                    <input class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Enter your Trade name" style="margin-bottom: 10px" type="file" />
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Adhaar card<span class="asteriskField">*</span> </label></div>
+                                                <div class="controls col-sm-6 ">
+                                                    <input class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Enter your Trade name" style="margin-bottom: 10px" type="file" />
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Owner photo<span class="asteriskField">*</span> </label></div>
+                                                <div class="controls col-sm-6 ">
+                                                    <input class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Enter your Trade name" style="margin-bottom: 10px" type="file" />
+                                                </div>
+                                            </div>
+                                            <!-- <div class="row">
+                                                <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Building receipt<span class="asteriskField">*</span> </label></div>
+                                                <div class="controls col-sm-6 ">
+                                                    <input class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Enter your Trade name" style="margin-bottom: 10px" type="file" />
+                                                </div>
+                                            </div> -->
+                                            <!-- <div class="row">
+                                                <div class="col-sm-6"><label for="id_username" class="control-label requiredField"> Building receipt<span class="asteriskField">*</span> </label></div>
+                                                <div class="controls col-sm-6 ">
+                                                    <input class="  form-control" id="id_username" maxlength="30" name="username" placeholder="Enter your Trade name" style="margin-bottom: 10px" type="file" />
+                                                </div>
+                                            </div> -->
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="controls col-md-offset-4 col-md-8 ">
+                                    <div id="div_id_terms" class="checkbox required">
+                                        <label for="id_terms" class=" requiredField">
+                                         <input class="input-ms checkboxinput" id="id_terms" name="terms" style="margin-bottom: 10px" type="checkbox" />
+                                         Agree with the terms and conditions
+                                    </label>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="aab controls col-md-4 "></div>
+                                <div class="controls col-md-8 ">
+                                    <button type="submit" name="Signup" class="btn btn-primary btn-info " id="submit-id-signup"><a  href="login.html">Apply</a></button>
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
+
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
+
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
+
+</body>
+
+</html>
